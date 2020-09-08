@@ -21,5 +21,5 @@ steps:
 - task: UiPathDeploy@2
   inputs:
     orchestratorConnection: 'UIPathOrchestratorS'
-    packagesPath: 'C:\Users\vinita.rai\Documents\UiPath\download attachment from outlook'
+    packagesPath: 'https://cloud.uipath.com/pactekeeywde/pacteraEdgeDefault/'
     folderName: 'Default'
