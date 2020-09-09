@@ -21,7 +21,7 @@ steps:
 - task: UiPathPack@2
   inputs:
     versionType: 'AutoVersion'
-    projectJsonPath: '$(pipeline.worspace)\C:\Users\vinita.rai\Documents\UiPath\download attachment from outlook'
+    projectJsonPath: '$(pipeline.workspace)\C:\Users\vinita.rai\Documents\UiPath\download attachment from outlook'
     orchestratorConnection: 'UIPathOrchestratorS'
     outputPath: '$(pipeline.workspace)\Output'
 - task: UiPathDeploy@2
