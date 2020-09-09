@@ -21,5 +21,5 @@ steps:
 - task: UiPathDeploy@2
   inputs:
     orchestratorConnection: 'UIPathOrchestratorS'
-    packagesPath: 'https://cloud.uipath.com/pactekeeywde/pacteraEdgeDefault/'
+    packagesPath: 'C:\Users\vinita.rai\.nuget\packages\uipath\20.6.7473.25550-preview'
     folderName: 'Default'
